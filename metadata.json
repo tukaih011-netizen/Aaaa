@@ -1,0 +1,6 @@
+{
+  "name": "TIME PASS",
+  "description": "Full JARVIS-style Banglish AI assistant with futuristic HUD, natural voice, real device controls, phone call integration, and background service.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

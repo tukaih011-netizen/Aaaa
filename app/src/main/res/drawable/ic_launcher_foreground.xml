@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Holographic Ring -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="1.8"
+        android:pathData="M54,26 A28,28 0 1,1 53.9,26 Z" />
+    
+    <!-- Outer Ring Segment Arcs -->
+    <path
+        android:strokeColor="#00A2FF"
+        android:strokeWidth="3.5"
+        android:pathData="M54,20 A34,34 0 0,1 88,54" />
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="3.5"
+        android:pathData="M54,88 A34,34 0 0,1 20,54" />
+
+    <!-- Inner Core Circle -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M54,46 A8,8 0 1,1 53.9,46 Z" />
+
+    <!-- Central Tech Target Markers -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:pathData="M54,38 L54,43 M54,65 L54,70 M38,54 L43,54 M65,54 L70,54" />
+    
+    <!-- Rotating Node Points -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 A2,2 0 1,1 53.9,20 Z M88,54 A2,2 0 1,1 87.9,54 Z M54,88 A2,2 0 1,1 53.9,88 Z M20,54 A2,2 0 1,1 19.9,54 Z" />
+</vector>
+
